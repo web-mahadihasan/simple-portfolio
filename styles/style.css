@@ -199,3 +199,38 @@ section {
   margin-bottom: 1rem;
 }
 /* skills section styles ends */
+
+/* myResume section styles start  */
+.myResume-container > .section-title {
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: capitalize;
+}
+.myResume-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.myResume-column .hr {
+  margin: 30px 0px;
+}
+.myResume-column .column-items {
+  width: 50%;
+}
+.myResume-column .resume-item .section-description {
+  font-size: 1rem;
+  max-width: 511px;
+}
+.myResume-column .resume-item .resume-item-title {
+  color: rgb(71, 71, 71);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.myResume-column .resume-item .resume-item-subtitle {
+  color: rgb(117, 117, 117);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 10px 0px 20px 0px;
+}
+/* myResume section styles ends  */

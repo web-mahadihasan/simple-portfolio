@@ -56,4 +56,16 @@
         flex-direction: column;
         padding: 0px 50px;
     }
+    .myResume-container > .section-title{
+        padding: 0px 30px;
+        margin-bottom: 30px;
+    }
+    .myResume-column{
+        flex-direction: column;
+    }
+    .myResume-column .column-items{
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
 }
