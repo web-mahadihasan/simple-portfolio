@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+/* shared styles start  */
+.primary-text {
+  color: rgb(71, 71, 71);
+  font-weight: 400;
+}
+.btn-primary {
+  padding: 0.8rem 1.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.btn-primary:hover {
+  border: 1px solid rgb(253, 110, 10);
+  background-color: transparent;
+  color: rgb(24, 24, 24);
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 130px !important;
+}
+.section-description {
+  color: rgb(117, 117, 117);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.section-title {
+  color: rgb(24, 24, 24);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+/* shared styles ends */
+
+/* header styles  */
+
+.header {
+  /* max-width: 1600px; */
+  width: 100vw;
+  height: 830px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+  background-color: rgb(255, 248, 243);
+}
+
+/* navbar style  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding: 50px 230px 0px;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items ul li {
+  margin-right: 2.5rem;
+}
+.nav-items ul li .nav-links {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.nav-logo h3 {
+  font-size: 45px;
+  font-weight: 800;
+  color: rgb(24, 24, 24);
+}
+.nav-logo h3 span {
+  color: rgb(253, 110, 10);
+}
+/* nav section style ends  */
+
+/* banner section styles start  */
+.banner-container {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  flex-basis: 50%;
+}
+.banner-content h3 {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-content h1 {
+  color: rgb(24, 24, 24);
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+.banner-content p {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 580px;
+}
+.banner-content .banner-btn {
+  margin-top: 1.8rem;
+}
+.banner-content .banner-btn .btn-contact {
+  padding: 0.8rem 1.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(24, 24, 24);
+  border: 1px solid rgb(253, 110, 10);
+  cursor: pointer;
+  transition: 0.5s ease all;
+  margin-left: 1rem;
+}
+.banner-content .banner-btn .btn-contact:hover {
+  background-color: rgb(253, 110, 10);
+  color: rgb(255, 255, 255);
+}
+.banner-img {
+}
+.banner-img img {
+  width: 143%;
+}
+/* banner section styles ends */
+
+/* about me section styles starts  */
+
+.about-container {
+  height: 537px;
+  background-color: rgb(255, 248, 243);
+  /* padding: 120px; */
+}
+.about-content {
+  padding: 130px 160px 0px 160px;
+  text-align: center;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  margin-top: 1.8rem;
+}
+.item-container .item-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: rgb(24, 24, 24);
+  margin-bottom: 1rem;
+}
+/* about me section styles ends */
+
+/* skills section styles start  */
+.skills-content {
+  padding: 0 130px;
+  text-align: center;
+}
+
+.skills-cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 50px;
+}
+.skills-cards .card {
+  padding: 30px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-cards .card .section-description {
+  margin-top: 1.125rem;
+}
+.skills-cards .card .card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: rgb(24, 24, 24);
+  margin-bottom: 1rem;
+}
+/* skills section styles ends */
