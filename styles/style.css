@@ -233,4 +233,62 @@ section {
   font-weight: 600;
   margin: 10px 0px 20px 0px;
 }
+.myResume-container .download-btn{
+  text-align: center;
+  margin-top: 1.8rem;
+}
 /* myResume section styles ends  */
+
+/* my amazing portfolio section styles start  */
+.portfolio-area .section-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.all-portfolio{
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-area img{
+  margin-bottom: 24px;
+  vertical-align:middle;
+  display: inline-block;
+  width: 100%;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.portfolio-area .portfolio-img{
+  flex-basis: 32%;
+}
+.image{
+  transition: 0.4s ease;
+}
+.image-container{
+  position: relative;
+}
+.image-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.4s ease;
+  color: #474747;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.image-container:hover .image{
+  opacity: 0.4;
+}
+.image-container:hover .image-text{
+  opacity: 1;
+}
+.image-container .image-text button{
+  margin-top: 24px;
+}
+/* my amazing portfolio section styles ends */
+
+/* footer section style starts  */
+
+/* footer section style ends */

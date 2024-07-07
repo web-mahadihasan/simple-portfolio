@@ -68,4 +68,10 @@
         padding: 0px 30px;
         margin-top: 50px;
     }
+    .all-portfolio{
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
 }
+
