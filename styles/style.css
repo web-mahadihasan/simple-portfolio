@@ -346,6 +346,7 @@ section {
 }
 .contact-form textarea{
   height: 150px;
+  margin-bottom: 2rem;
 }
 
 .copyright-container{
