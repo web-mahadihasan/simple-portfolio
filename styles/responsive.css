@@ -72,6 +72,22 @@
         flex-direction: column;
         padding: 0px 30px;
     }
-
+    .footer-container{
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .company-info{
+        margin-top: 70px;
+    }
+    .contact-container{
+        margin-left: 0px;
+    }
+    .contact-form input,
+    .contact-form textarea{
+        width: 90%;
+    }
+    .copyright-container{
+        margin-top: 100px;
+    }
 }
 

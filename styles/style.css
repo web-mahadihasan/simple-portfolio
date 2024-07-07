@@ -187,9 +187,16 @@ section {
   text-align: left;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: box-shadow 0.4s ease;
+}
+.skills-cards .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .skills-cards .card .section-description {
   margin-top: 1.125rem;
+  font-size: 1rem;
+  line-height: 30px;
 }
 .skills-cards .card .card-title {
   font-size: 1rem;
@@ -233,40 +240,40 @@ section {
   font-weight: 600;
   margin: 10px 0px 20px 0px;
 }
-.myResume-container .download-btn{
+.myResume-container .download-btn {
   text-align: center;
   margin-top: 1.8rem;
 }
 /* myResume section styles ends  */
 
 /* my amazing portfolio section styles start  */
-.portfolio-area .section-title{
+.portfolio-area .section-title {
   text-align: center;
   margin-bottom: 50px;
 }
-.all-portfolio{
+.all-portfolio {
   display: flex;
   justify-content: space-between;
 }
-.portfolio-area img{
+.portfolio-area img {
   margin-bottom: 24px;
-  vertical-align:middle;
+  vertical-align: middle;
   display: inline-block;
   width: 100%;
   flex-wrap: nowrap;
   cursor: pointer;
   border-radius: 5px;
 }
-.portfolio-area .portfolio-img{
+.portfolio-area .portfolio-img {
   flex-basis: 32%;
 }
-.image{
+.image {
   transition: 0.4s ease;
 }
-.image-container{
+.image-container {
   position: relative;
 }
-.image-text{
+.image-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -278,17 +285,74 @@ section {
   font-weight: 500;
   text-align: center;
 }
-.image-container:hover .image{
+.image-container:hover .image {
   opacity: 0.4;
 }
-.image-container:hover .image-text{
+.image-container:hover .image-text {
   opacity: 1;
 }
-.image-container .image-text button{
+.image-container .image-text button {
   margin-top: 24px;
 }
 /* my amazing portfolio section styles ends */
 
 /* footer section style starts  */
+.footer {
+  background-color: rgb(255, 248, 243);
+  margin-top: 130px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+.company-info,
+.contact-container {
+  flex-basis: 50%;
+}
+.contact-container{
+  margin-left: 100px;
+}
+.company-info .social-icons {
+  margin-top: 30px;
+}
+.company-info .social-icons a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10p;
+  color: rgb(253, 110, 10);
+  font-size: 1.5rem;
+  transition: transform 0.4s ease-in-out;
+}
+.company-info .social-icons a:hover {
+  transform: scale(1.2);
+}
 
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 1.25rem;
+  width: 480px;
+  height: 60px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  border-radius: 5px;
+  color: rgba(117, 117, 117, 0.5);
+  font-weight: 600;
+}
+.contact-form textarea{
+  height: 150px;
+}
+
+.copyright-container{
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+.copyright-container a{
+  text-decoration: none;
+}
 /* footer section style ends */
