@@ -1,3 +1,235 @@
+@media screen and (min-width: 1220px) {
+    .nav{
+        padding: 50px 200px 0px;
+    }
+    .banner-content{
+        width: 50%;
+        text-align: left;
+        margin-top: 50px;
+        padding-left: 120px;
+        margin-bottom: 70px;
+    }
+    .banner-img{
+        width: 50%;
+        overflow: hidden;
+    }
+    .banner-img img{
+        width: 116%;
+        height: 120%;
+    }
+}
+
+/* max width 1024 px responsive  */
+
+@media screen and (max-width: 1024px) {
+    .header{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-image: url(../images/header_bg.png),  url(../images/developer.png);
+        background-position: bottom right, bottom left;
+        background-size: 50%, 6%;
+    }
+    .nav{
+        width: 100vw;
+        padding: 30px 30px 0px;
+        gap: 2rem;
+        height: auto;
+    }
+    .banner-container {
+        height: auto;
+    }
+    .banner-content{
+        width: 50%;
+        text-align: left;
+        margin-top: 50px;
+        padding-left: 80px;
+        margin-bottom: 70px;
+    }
+    .banner-content h3{
+        font-size: 2rem;
+    }
+    .banner-content h1{
+        font-size: 3rem;
+    }
+    .banner-img{
+        width: 50%;
+        overflow: hidden;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 120%;
+    }
+    .about-content {
+        padding: 130px 30px 0px;
+    }
+    .item-container{
+        text-align: center;
+        gap: 1.25rem;
+        width: 100%;
+        padding: 0 40px;
+    }
+    .skills-content{
+        padding: 0 40px;
+    }
+    .skills-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills-cards .card{
+        flex-basis: 45%;
+    }
+    .myResume-container > .section-title{
+        padding: 0px 30px;
+        margin-bottom: 30px;
+    }
+
+    .myResume-column .column-items{
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+    .all-portfolio{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 0 15px;
+    }
+    .portfolio-area img{
+        height: 100%;
+    }
+
+    /* footer responsive  */
+    .footer-container{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .company-info{
+        margin-top: 70px;
+    }
+    .contact-container{
+        margin-left: 0px;
+    }
+    .contact-form input,
+    .contact-form textarea{
+        width: 90%;
+    }
+    .copyright-container{
+        margin-top: 100px;
+    }
+    .copyright-container a{
+        font-size: .9rem;
+    }
+}
+
+/* max width 768 px responsive  */
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100vw;
+        height: auto;
+        background-image: none;
+    }
+    .nav{
+        width: 100vw;
+        padding: 30px 30px 0px;
+        gap: 2rem;
+        height: auto;
+    }
+    .banner-container {
+        height: auto;
+    }
+    .banner-content{
+        width: 70%;
+        text-align: left;
+        margin-top: 50px;
+        padding: 0 20px;
+        margin-bottom: 70px;
+    }
+    .banner-content h3{
+        font-size: 2rem;
+    }
+    .banner-content h1{
+        font-size: 3rem;
+    }
+    .banner-img{
+        width: 50%;
+        overflow: hidden;
+    }
+    .banner-img img{
+        width: 140%;
+        height: 120%;
+    }
+    .about-content {
+        padding: 130px 30px 0px;
+    }
+    .item-container{
+        text-align: center;
+        gap: 1.25rem;
+        width: 100%;
+        padding: 0 40px;
+    }
+    .skills-content{
+        padding: 0 40px;
+    }
+    .skills-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills-cards .card{
+        flex-basis: 45%;
+    }
+    .myResume-container > .section-title{
+        padding: 0px 30px;
+        margin-bottom: 30px;
+    }
+    .myResume-column{
+        flex-direction: column;
+    }
+    .myResume-column .column-items{
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+    .all-portfolio{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .portfolio-area .portfolio-img{
+        display: flex;
+        gap: 20px;
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+    .portfolio-area img{
+        height: 100%;
+    }
+
+    /* footer responsive  */
+    .footer-container{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .company-info{
+        margin-top: 70px;
+    }
+    .contact-container{
+        margin-left: 0px;
+    }
+    .contact-form input,
+    .contact-form textarea{
+        width: 90%;
+    }
+    .copyright-container{
+        margin-top: 100px;
+    }
+    .copyright-container a{
+        font-size: .9rem;
+    }
+}
+
+/* max width 500 px responsive  */
+
 @media screen and (max-width: 500px) {
     .header{
         width: 100vw;
@@ -7,11 +239,12 @@
     .nav{
         width: 100vw;
         flex-direction: column;
-        padding: 30px 50px 0px;
+        padding: 30px 30px 0px;
         gap: 2rem;
-        position: static;
-        backdrop-filter: blur(0px);
         height: auto;
+    }
+    main{
+        width: 100%;
     }
     .banner-container {
         flex-direction: column;
@@ -42,7 +275,7 @@
         height: auto;
     }
     .about-content {
-        padding: 130px 20px 0px;
+        padding: 130px 30px 0px;
     }
     .item-container{
         flex-direction: column;
@@ -54,7 +287,7 @@
     }
     .skills-cards {
         flex-direction: column;
-        padding: 0px 50px;
+        padding: 0px 30px;
     }
     .myResume-container > .section-title{
         padding: 0px 30px;
@@ -72,7 +305,14 @@
         flex-direction: column;
         padding: 0px 30px;
     }
+    .portfolio-area .portfolio-img{
+        width: 100%;
+    }
+    /* .portfolio-area img{
+        width: 90%!important;
+    } */
     .footer-container{
+        width: 100%;
         flex-direction: column;
         padding: 0px 30px;
     }
@@ -89,5 +329,7 @@
     .copyright-container{
         margin-top: 100px;
     }
+    .copyright-container a{
+        font-size: .9rem;
+    }
 }
-
